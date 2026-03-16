@@ -9,8 +9,6 @@ votos = votos + 1
 
 textoVotos.innerText = "Votos: " + votos
 
-console.log("voto registrado")
-
 })
 
 
