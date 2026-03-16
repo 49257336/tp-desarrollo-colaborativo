@@ -78,6 +78,8 @@ flex-direction:column;
     border-radius: 10px;
     background:linear-gradient(180deg, rgb(49, 184, 218),#6dd5ed);;
     color: whitesmoke;
+    box-shadow: 2px 4px 17px #29327763;
+
 }
 
 #formPropuesta{
