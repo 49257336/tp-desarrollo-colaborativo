@@ -14,15 +14,20 @@ textoVotos.innerText = "Votos: " + votos
 
 const form = document.getElementById("formPropuesta")
 
+const mensj = document.getElementById("mensaje")
+
 form.addEventListener("submit", function(e){
+    e.preventDefault()
 
 let nombre = document.getElementById("nombre").value
 let idea = document.getElementById("idea").value
 
 if(nombre == "" || idea == ""){
 
-document.getElementById("mensaje").innerText = "Completa todos los campos"
+mensj.innerText = "Completa todos los campos"
 
+}else{
+    mensj.innerText = "Gracias por su colaboración"
 }
 
 })
